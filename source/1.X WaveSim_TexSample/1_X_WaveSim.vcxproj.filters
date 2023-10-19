@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Content\Shaders\ColoredCubeDemoPS.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\ColoredCubeDemoVS.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="..\1.3_Point\PointDemoPS.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="..\1.3_Point\PointDemoVS.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColoredCubeDemo.cpp" />
+    <ClCompile Include="NodeArray.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="RenderingGame.cpp" />
+    <ClCompile Include="WaveSim.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMath.h" />
+    <ClInclude Include="ColoredCubeDemo.h" />
+    <ClInclude Include="NodeArray.h" />
+    <ClInclude Include="RenderingGame.h" />
+    <ClInclude Include="WaveSim.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{e26c8b41-1770-4067-b159-98194f4b561b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
