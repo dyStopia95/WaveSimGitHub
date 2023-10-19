@@ -1,4 +1,6 @@
 # WaveSimGitHub
+Please have a look at the dev diary for this project for my thought process while working on this project here: [DEV DIARY](https://arun95pillai7.wixsite.com/arpwarp/wave-simulation-project-updates)
+
  Wave simulation using a DirectX framework taken from Dr. Paul Varcholik's open source project ( https://bitbucket.org/pvarcholik/real-time-3d-rendering-with-directx-and-hlsl/src/master/ ). Extended on the framework to simulate waves using heightfields. The framework uses a master material supporting all shader stages. I added functionality for Texture1D, Texture1D Array, and Texture2D to the framework, as well as creating the materials and shaders associated with the simulation.
 
  First implementation of the simulation was done by calculating the height values for each vertex and using this to update the z-values for each vertex.
